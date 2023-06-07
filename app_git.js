@@ -16,7 +16,7 @@ venom
  ));
 
  function start(client){
-    console.log('Iniciando o rava_zap...');
+    console.log('Iniciando o whatsapp...');
     client.onMessage(async (msg) => {
         try {
             if (getUserFrom === false){
