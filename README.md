@@ -7,7 +7,8 @@ Utilizaremos a API Venom, que possui diversas funções pré-definidas, seja par
 digitadas pelo usuário, ou para definir estruturas que irão funcionar de acordo com a interação do
 usuário.
 
-![image](https://github.com/czkni/bot-whatsapp/assets/127226763/937b52de-db76-414e-9bdc-a23c1965129d)
+![code2](https://github.com/czkni/bot-whatsapp/assets/127226763/94ae2d47-9f7a-4a15-99a7-60c9909e8b00)
+
 
 Vou apresentar algumas funções utilizadas e como elas funcionam durante a interação do usuário:
 
