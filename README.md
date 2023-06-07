@@ -1,5 +1,6 @@
 # bot-whatsapp
-Bot para automatizar o atendimento do Whatsapp, utilizando a API Venom.
+
+🕷️ Bot para automatizar o atendimento do Whatsapp, utilizando a API Venom 🎉
 
 Importações necessárias: 
 
@@ -53,5 +54,18 @@ finalizando assim os métodos automáticos do código.
 
 Podem ser definidos X valores para as interações do usuário, mas ressalto que para um bot de atendimento, é importante
 definir com clareza os menus e as opções que o usuário tem disponível, para que a experiência torne-se intuitiva e objetiva.
+
+Segue abaixo uma breve demonstração do funcionamento do chatbot.
+
+https://github.com/czkni/bot-whatsapp/assets/127226763/f5bbd4bd-1145-4d54-84b4-07bbaf0025a2
+
+Obs: A API é riquíssima em funções, é possível enviar imagens, aúdios, localização, documentos e todo tipo de arquivo que 
+o Whatsapp permite o envio. Fica a critério do desenvolvedor/cliente quais funcionalidades implementar nesta solução, afim
+de resolver questões de interação nas redes sociais.
+
+Obrigado por ter lido até aqui. Fique a vontade para entrar em contato comigo caso tenha alguma dúvida sobre a implantação 
+de um ChatBot utilizando a API Venom, caso seja de meu conhecimento, ficarei feliz em ajudar.
+
+
 
 
