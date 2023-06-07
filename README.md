@@ -36,3 +36,22 @@ de uma flag para validar os atendimentos que estão acontecendo ou que já acaba
 
 ![delete](https://github.com/czkni/bot-whatsapp/assets/127226763/b0362c34-4f70-43d0-a119-2946dc4a48fd)
 
+Agora partindo para o arquivo que irá interagir diretamente com a API e suas requisições.
+
+A condição a seguir realiza uma verificação se o usuário já está com uma sessão de atendimento ativa, caso a resposta
+seja não, irá enviar uma sequência de mensagens de boas-vindas/apresentações.
+
+![getuser](https://github.com/czkni/bot-whatsapp/assets/127226763/f4d78450-abab-4d2f-8814-ab48a6116096)
+
+O seguinte trecho de código realiza a validação do comando digitado pelo cliente, com o objetivo de redreciona-lo
+para o menu desejado.
+
+![condicao](https://github.com/czkni/bot-whatsapp/assets/127226763/81602492-1f6f-4a14-ac69-81c758f487ed)
+
+Na imagem acima o número 5 é definido como um demarcador para transferir o atendimento para um atendente real, 
+finalizando assim os métodos automáticos do código.
+
+Podem ser definidos X valores para as interações do usuário, mas ressalto que para um bot de atendimento, é importante
+definir com clareza os menus e as opções que o usuário tem disponível, para que a experiência torne-se intuitiva e objetiva.
+
+
