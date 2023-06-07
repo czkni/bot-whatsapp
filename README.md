@@ -18,3 +18,21 @@ menu de opções ser exibido ao cliente, onde cada um dos números digitados red
 para uma outra árvore de rotinas.
 
 ![code](https://github.com/czkni/bot-whatsapp/assets/127226763/0b23739d-91d7-4250-b449-39c2d8fba26a)
+
+Para usufruir das funções e métodos disponibilizados pela API Venom, é importante utilizar algumas 
+funcionalidades, dispostas na documentação, como a definição de usuário ativo/inativo . Muitas funções
+exigem que parâmetros de identificação sejam passados durante a chamada, portanto se faz necessária
+a função a seguir, que insere o usuário que iniciou os serviços do BOT em uma tabela do banco de dados.
+
+![user](https://github.com/czkni/bot-whatsapp/assets/127226763/c1af29b1-8e99-426a-81f0-045041057789)
+
+Durante minha jornada configurando este bot de atendimento, notei que uma das funcionalidades mais comuns
+em automações deste tipo, é um sistema que finalize o atendimento, em casos onde o problema foi sanado, ou
+por inatividade do usuário. 
+
+A função a seguir, ao contrário da citada anteriormente, realiza a exclusão de um usuário da tabela de usuários
+ativos/inativos. Essa função pode ser adaptada para ao invés de excluir um registro, realizar apenas a alteração
+de uma flag para validar os atendimentos que estão acontecendo ou que já acabaram.
+
+![delete](https://github.com/czkni/bot-whatsapp/assets/127226763/b0362c34-4f70-43d0-a119-2946dc4a48fd)
+
