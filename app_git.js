@@ -6,7 +6,7 @@ const userinfo = os.userInfo();
 
 venom
  .create({
-    session: 'rava_zap',
+    session: 'zap',
     multidevice: true,
     headless: false
  })
